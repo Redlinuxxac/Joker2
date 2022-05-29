@@ -1,0 +1,27 @@
+{
+    "name": "reddatasrd/joker",
+    "description": "bormas",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reddatasrd\\Joker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Reddatasrd\\Joker\\JokerServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edwin Rafael Rosario De La Rosa",
+            "email": "RosarioEdwinAC@gmail.com"
+        }
+    ]
+}
